@@ -1,0 +1,44 @@
+.cat {
+    width: 50px;
+    height: 50px;
+}
+
+.container{
+    position: relative;
+    text-align:  center;
+    color: white;
+}
+
+.center{
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.catText{
+    width:30%;
+}
+
+.dot{
+    border-style: dotted;
+}
+
+.catHover{
+    margin: 20px;
+    padding: 10px;
+    background-color: black;
+}
+.float{
+    float: left;
+}
+.catHover:hover{
+    opacity: 0.8;
+}
+.round{
+    border-style: dashed;
+    border-radius:25px;
+    border-color: black;
+}
